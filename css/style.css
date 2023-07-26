@@ -5,3 +5,8 @@
 @import "./utilitarios/tipografia.css";
 @import "./utilitarios/cores.css";
 @import "./bicicletas/bike-listas.css";
+@import "./principal/tecnologia.css";
+@import "./principal/parceiros.css";
+@import "./principal/depoimentos.css";
+@import "./seguros/seguros.css";
+@import "./global/footer.css";
