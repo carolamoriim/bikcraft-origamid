@@ -1,6 +1,5 @@
 .container {
   box-sizing: border-box;
-  max-width: 1200px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -53,4 +52,26 @@
 
 .link:hover {
   color: #fff;
+}
+
+.titulo-principal {
+  background-color: #111;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.titulo p {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+  .titulo-principal {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .titulo p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
 }
