@@ -1,0 +1,109 @@
+.bikes {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+#bikes .titulo p {
+  text-transform: uppercase;
+}
+
+.bikes-img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.bikes-img img {
+  flex: 1;
+  min-width: 200px;
+}
+
+.bikes-img img:first-child {
+  min-width: 100%;
+}
+
+.bikes-conteudo > p {
+  margin-bottom: 32px;
+}
+
+.bikes-comprar {
+  margin-bottom: 32px;
+  display: grid;
+  grid-template-columns: max-content auto;
+  align-items: center;
+  justify-items: start;
+  gap: 8px 12px;
+}
+
+.bikes-comprar a {
+  grid-row: span 2;
+}
+
+.bikes-comprar span {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 4px 8px;
+}
+
+.bikes-conteudo h2 {
+  margin-bottom: 32px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+
+.bikes-informacoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-bottom: 40px;
+}
+
+.bikes-informacoes img,
+h3 {
+  margin-bottom: 8px;
+}
+
+.bikes-ficha li {
+  padding: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.bikes-ficha h2 {
+  margin-bottom: 32px;
+}
+
+.bikes-ficha span {
+  color: #9c9c9c;
+}
+
+@media (max-width: 800px) {
+  .bikes {
+    grid-template-columns: 1fr;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .bikes-img {
+    grid-row: 2;
+  }
+  .bikes-ficha li {
+    justify-content: space-around;
+    align-items: start;
+  }
+}
+
+@media (max-width: 400px) {
+  .bikes-informacoes {
+    grid-template-columns: 1fr;
+  }
+  .bikes-comprar {
+    grid-template-columns: 1fr;
+  }
+}
