@@ -1,0 +1,33 @@
+.seguros-vantagens {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.seguros-vantagens h2 {
+  margin-bottom: 40px;
+}
+
+.seguros-vantagens ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+  gap: 40px 80px;
+  align-items: center;
+}
+
+.seguros-vantagens img,
+p {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 800px) {
+  .seguros-vantagens {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .seguros-vantagens h2 {
+    margin-bottom: 40px;
+  }
+  .seguros-vantagens ul {
+    gap: 20px;
+  }
+}
