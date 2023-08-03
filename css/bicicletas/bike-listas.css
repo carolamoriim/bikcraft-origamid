@@ -17,6 +17,15 @@
   overflow-x: auto;
 }
 
+#bikes .bike-lista ul {
+  padding: 0 0 20px 0;
+  text-align: center;
+}
+
+#bikes .bike-lista h2 {
+  margin-bottom: 32px;
+}
+
 .bike-lista li {
   min-width: 280px;
 }
